@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient_background"
+    android:id="@+id/layoutLogin"
+    tools:context=".LoginActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_email"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvEmail"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/register_email"
+        android:layout_marginStart="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/login_parola"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvPassword"
+        android:hint="@string/login_parola"
+        style="@style/EditTextStyle"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:layout_marginStart="60dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/editTextPassword"
+        android:layout_alignParentRight="true"
+        android:text="@string/don_t_have_an_account" />
+
+    <Button
+        android:id="@+id/btnGoToRegister"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNoAccount"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="27dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/register"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:id="@+id/cbRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/editTextPassword"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/remember_me" />
+
+</RelativeLayout>

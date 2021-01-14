@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".CardListingActivity">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <TextView
+        android:id="@+id/titluLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextviewTitle"
+        android:text="@string/lista_carduri_de_fidelitate"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+    <ListView
+        android:id="@+id/idlistView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <Space
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAddCard"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:tint="@android:color/background_light"
+            android:background="@color/darkPurple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@android:drawable/ic_input_add" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

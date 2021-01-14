@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="colors">
+        <item>Galben</item>
+        <item>Salmon</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Light Green</item>
+    </string-array>
+    <string-array name="colors_values">
+        <item>#FEF1B5</item>
+        <item>#C67171</item>
+        <item>#8EC6D6</item>
+        <item>#FFC0CB</item>
+        <item>#90EE90</item>
+    </string-array>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+      <TextView
+        android:id="@+id/tvNume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register_nume"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"/>
+
+    <EditText
+        android:id="@+id/editTextNume"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:hint="@string/register_nume"
+        android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+        android:layout_marginTop="10dp"
+        style="@style/EditTextStyle"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvPrenume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:text="@string/register_prenume"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"/>
+
+    <EditText
+        android:id="@+id/editTextPrenume"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/register_prenume"
+        style="@style/EditTextStyle"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvSetEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:text="@string/register_email" />
+
+    <EditText
+        android:id="@+id/editTextSetEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        style="@style/EditTextStyle"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/register_email"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvSetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:text="@string/register_password" />
+
+    <EditText
+        android:id="@+id/editTextSetPassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/register_password"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        style="@style/EditTextStyle"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/register"
+        android:textColor="@color/white" />
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

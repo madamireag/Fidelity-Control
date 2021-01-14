@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+    <TextView
+        android:id="@+id/tvCurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etDisplayName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/display_name"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+         />
+    <Button
+        android:id="@+id/btnChangeName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/schimba_nume"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/etChangeEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/email_nou"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        />
+    <Button
+        android:id="@+id/btnChangeEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/schimba_email"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/etChangePassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/schimba_parola"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/schimba_parola"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sign_out"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnStergeCont"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/sterge_contul"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+</ScrollView>

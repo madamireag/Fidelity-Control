@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <item android:id="@+id/optiuneContactUs"
+        android:title="@string/contact_the_developers"
+        />
+    <item android:id="@+id/optiuneJSON"
+        android:title="@string/import_from_json"
+        />
+    <item android:id="@+id/optiuneRateUs"
+        android:title="@string/rate_our_app"
+        />
+    <item android:id="@+id/optiuneUser"
+        android:title="@string/optiuni_utilizator"
+        />
+    <item android:id="@+id/optiuneSetari"
+        android:title="@string/setari_aplicatie"
+        />
+    <item android:id="@+id/optiuneClearDB"
+        android:title="@string/clear_database_cards"
+        />
+    <item android:id="@+id/optiuneOferteJSON"
+        android:title="@string/import_oferte_din_json"
+        />
+    <item android:id="@+id/optiuneListaOferte"
+        android:title="@string/lista_oferte_bd"
+        />
+</menu>

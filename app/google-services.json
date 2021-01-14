@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473384983704",
+    "project_id": "dam-project-30f99",
+    "storage_bucket": "dam-project-30f99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473384983704:android:7cea1fe5f9a742286604ed",
+        "android_client_info": {
+          "package_name": "com.example.fidelitycontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473384983704-lpjd3747c1kapfkn8lo2nleoj6n3b7bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Fu8o-2r8wGQFMbH0Dqb4GVoKbyOJdZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473384983704-lpjd3747c1kapfkn8lo2nleoj6n3b7bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

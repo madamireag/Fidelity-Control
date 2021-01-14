@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Fidelity Control</string>
+    <string name="welcome_message">Bring your fidelity cards together</string>
+    <string name="lista_carduri_de_fidelitate">Lista carduri de fidelitate</string>
+    <string name="btn_start">Start</string>
+    <!-- Formular adaugare carduri -->
+    <string name="adauga_card">Adauga Card</string>
+    <string name="tv_numele_companiei">Introduceti numele companiei</string>
+    <string name="hint_proprietarul_cardului">Introduceti proprietarul cardului</string>
+    <string name="hint_data_expirarii">Introduceti data expirarii(dd.MM.yyyy)</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="btn_salvare_card">Salvare card</string>
+    <string name="error_card_number">Completati numarul cardului!</string>
+    <string name="error_companie">Completati compania!</string>
+    <string name="error_proprietar">Completati proprietarul!</string>
+    <string name="hint_nr_de_puncte">Introduceti nr. de puncte</string>
+    <string name="error_nr_puncte_empty">Completati numarul de puncte</string>
+    <string name="error_data_expirarii_empty">Completati data expirarii!</string>
+    <string name="mesaj_no_data_expirare">Cardul nu are data de expirare</string>
+    <string name="send_email">Send email</string>
+    <string name="mail_message">Message</string>
+    <string name="mail_subject">Subject</string>
+    <string name="contact_us">Contact us</string>
+    <string name="e_mail_adress">E-mail adress:</string>
+    <string name="contact_the_developers">Contact the developers</string>
+    <string name="import_from_xml">Import from XML</string>
+    <string name="import_from_json">Import from JSON</string>
+    <!-- Optiuni context menu -->
+    <string name="editoption">Edit</string>
+    <string name="deleteoption">Delete</string>
+    <string name="seteaza_ofertele_extrase">Seteaza ofertele extrase</string>
+    <string name="sterge_toate_ofertele">Sterge toate ofertele</string>
+    <!-- Activitati Login si Register -->
+    <string name="Login">Login</string>
+    <string name="Register">Inregistreaza-te</string>
+    <string name="register">Register</string>
+    <string name="register_nume">Nume:</string>
+    <string name="register_prenume">Prenume:</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_email">Email</string>
+    <string name="login_parola">Parola</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="are_data_de_expirare">Are data de expirare?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Please enter an email!</string>
+    <string name="enter_password">Please enter your password!</string>
+    <string name="invalid_password">Parola trebuie sa aiba cel putin 6 caractere!</string>
+    <string name="reg_failed">Registration failed! Please try again later</string>
+    <string name="reg_successfull">Registration successful!</string>
+    <string name="login_successfull">Login successfull!</string>
+    <string name="rate_our_app">Rate our app</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="setari_aplicatie">Setari Aplicatie</string>
+    <string name="setari_sumarry_culoare">Se schimba culoarea de fundal</string>
+    <string name="setari_checkbox_summary">Se aplica culoarea selectata pentru activitate</string>
+    <string name="setari_key_checkboxCuloare">aplicCuloareFundal</string>
+    <string name="setari_culoare_fundal">Setari culoare de fundal</string>
+    <string name="setari_aplicare_culoare">Aplicare culoare</string>
+    <string name="lista_culori_key">pref_color</string>
+    <string name="min_points_premium">Minimum points for premium</string>
+    <!-- User related -->
+    <string name="optiuni_utilizator">Optiuni utilizator</string>
+    <string name="sign_out">Sign out</string>
+    <string name="schimba_parola">Schimba parola</string>
+    <string name="display_name">Display name:</string>
+    <string name="schimba_nume">Schimba nume</string>
+    <string name="parola_schimbata">Parola a fost schimbata, reconectati-va cu noua parola!</string>
+    <string name="email_nou">Email nou</string>
+    <string name="schimba_email">Schimba email</string>
+    <string name="sterge_contul">Sterge contul</string>
+    <string name="logged_in_as">Currently logged in as: </string>
+    <string name="email_schimbat">Emailul a fost schimbat!</string>
+    <string name="login_failed">Login failed!</string>
+    <string name="clear_database_cards">Clear database cards</string>
+    <string name="import_oferte_din_json">Import oferte din json</string>
+
+    <string name="lista_oferte_bd">Lista oferte bd</string>
+    <string name="edit_card">Editeaza card</string>
+    <string name="eroare_json">Json object este null</string>
+    <string name="cont_sters">Contul a fost sters!</string>
+
+    <string name="confirmare_stergere">Confirmare stergere</string>
+    <string name="delete_msg">Sigur doriti sa stergeti acest card?</string>
+    <string name="nimic_sters">Nu s-a sters nimic!</string>
+    <string name="card_sters">Card sters cu succes!</string>
+    <string name="oferte_sterse">Ofertele au fost sterse!</string>
+    <string name="email_msg_type">message/rfc822</string>
+    <string name="choose_app">Choose Mail App</string>
+</resources>

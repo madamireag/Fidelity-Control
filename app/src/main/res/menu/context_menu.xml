@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ctxedit"
+        android:title="@string/editoption" />
+    <item android:id="@+id/ctxdelete"
+        android:title="@string/deleteoption" />
+    <item android:id="@+id/ctxSetareOferte"
+        android:title="@string/seteaza_ofertele_extrase" />
+    <item android:id="@+id/ctxStergeOferte"
+        android:title="@string/sterge_toate_ofertele" />
+</menu>

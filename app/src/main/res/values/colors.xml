@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D3A3E</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#25116C</color>
+    <color name="startColor">#355C7D</color>
+    <color name="centerColor">#6C5B7B</color>
+    <color name="stopColor">#C06C84</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkPurple">#25116C</color>
+</resources>

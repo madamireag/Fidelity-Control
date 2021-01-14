@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/tvContact"
+        style="@style/TextviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/contact_us" />
+
+    <EditText
+        android:id="@+id/EditTextToMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail_adress" />
+
+    <EditText
+        android:id="@+id/EditTextSubiectMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_subject" />
+
+    <EditText
+        android:id="@+id/EditTextMesajMail"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="top"
+        android:hint="@string/mail_message" />
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:drawableRight="@drawable/ic_baseline_send_24"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_email" />
+</LinearLayout>
+</ScrollView>

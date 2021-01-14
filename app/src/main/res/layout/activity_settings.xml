@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <PreferenceCategory
+        android:title="@string/setari_aplicatie">
+        <EditTextPreference
+            android:name="@string/min_points_premium"
+            android:summary="@string/min_points_premium"
+            android:defaultValue="1000"
+            android:inputType="number"
+            android:title="@string/min_points_premium"
+            android:key="etMinPoints" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/setari_culoare_fundal">
+        <CheckBoxPreference
+            android:key="@string/setari_key_checkboxCuloare"
+            android:summary="@string/setari_checkbox_summary"
+            android:title="@string/setari_aplicare_culoare" />
+        <ListPreference
+            android:key="@string/lista_culori_key"
+            android:entries="@array/colors"
+            android:summary="@string/setari_sumarry_culoare"
+            android:defaultValue="@drawable/gradient_background"
+            android:entryValues="@array/colors_values"
+            android:title="Background" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
