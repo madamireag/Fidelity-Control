@@ -1,8 +1,7 @@
 ## Application for fidelity cards management
 ### The default page shows when the app opens with the options to login or register
-![Default page](default.png)
-
-![Login page](login.png)
+![Default page](default.png)                             
+![Login page](login.png)                         
 
 ![Register page](register.png)
 
